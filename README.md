@@ -14,7 +14,3 @@
 * **核心逻辑**：使用 `while(k > 0 && !isEmpty(q))` 循环持续从队头取出订单分配，直到余票耗尽或队列清空。
 * **内存管理**：入队 `malloc` 申请，出队 `free` 释放，程序退出时遍历释放剩余节点。
 
-## 🚀 编译与运行
-```bash
-gcc main.c -o train_system
-./train_system
